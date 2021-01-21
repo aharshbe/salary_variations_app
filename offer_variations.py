@@ -1,3 +1,10 @@
+'''
+This tool generates various offer variations
+Created by Austin Harshberger
+1/21/21
+Free and Open Source
+'''
+
 print('This tool presents a NEAR offer given the current token price and a intial salary\n\n')
 
 initial_salary = float(input('What is the base salary? (ex: 118000.00) '))
@@ -44,3 +51,5 @@ def print_offer(arr_variations):
     print(f'{i+1}. {offer[0]} with {offer[1]} valued at {offer[2]} USD (standard 1-year cliff, 4-year vesting schedule)\n')
 
 print_offer(calculate_offer_variations(arr_variations,current_token_price))
+
+# EOF
