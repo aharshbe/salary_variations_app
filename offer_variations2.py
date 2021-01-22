@@ -19,7 +19,7 @@ token_percentage = int(input(f'What is the token % in relation to {initial_salar
 num_variations = int(input(f'How many variations would you like? (ex: 2) '))
 # print(f'Token % is {token_percentage}\n\n')
 
-# Prettyfies
+# Prettify
 print()
 
 # Calculate the token allocation, i.e., the token grant based on the token to salary ratio enetered

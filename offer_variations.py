@@ -51,7 +51,6 @@ def print_offer(arr_variations):
     print(f'{i+1}. {offer[0]} with {offer[1]} valued at {offer[2]} USD (standard 1-year cliff, 4-year vesting schedule)')
   print("\n")
 
-
 print_offer(calculate_offer_variations(arr_variations,current_token_price))
 
 # EOF
