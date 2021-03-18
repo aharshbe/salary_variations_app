@@ -5,7 +5,7 @@ Created by Austin Harshberger
 Free and Open Source
 '''
 
-print('This tool presents a NEAR offer given the current token price and a intial salary\n\n')
+print('This tool presents a NEAR offer given the current token price and a initial salary\n\n')
 
 initial_salary = float(input('What is the base salary? (ex: 118000.00) '))
 # print(f'Inital salary is {initial_salary}\n\n')
